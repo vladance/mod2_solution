@@ -1,1 +1,50 @@
+* {
+  box-sizing: border-box;
+}
 
+h1 {
+	font-size: 27px;
+  font-family: Tahoma, sans-serif
+	text-align: center;
+	color: rgb(0, 0, 0);
+	margin-bottom: 30px;
+}
+
+p {
+	padding: 15px 5px 0px 5px;
+  font-family: Tahoma, sans-serif
+	font-size: 16px;
+	position: relative;
+}
+
+section { 
+	background-color: rgb(255, 240, 158);
+   	border: 2px solid black;
+   	margin-top: 20px; 
+   	margin-right: 20px; 
+   	padding: 3px;
+   	text-align: justify;
+   	position: relative;
+ }
+
+span {
+	font-size: 20px;
+	width: 150px;
+	border: 1px solid black;
+	font-weight: bold;
+	text-align: center;
+	float: right; top :0; right: 0; margin: 0;
+	position: absolute;
+}
+#1 {
+	background-color: rgb(252, 140, 3);
+	color: rgb(190, 252, 3);
+}
+#2 {
+	background-color: rgb(231, 252, 3);
+	color: rgb(252, 140, 3);
+}
+#3 {
+	background-color: rgb(190, 252, 3);
+	color: rgb(231, 252, 3);
+}
